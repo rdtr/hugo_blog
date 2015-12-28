@@ -1,0 +1,24 @@
+baseurl = "http://blog.rdtr.net"
+languageCode = "en-us"
+title = "A Good Day to Learn Hard."
+theme = "hyde-y"
+paginate = 10
+disqusShortname = "rdtrnet"
+
+[taxonomies]
+tag = "tags"
+
+[params]
+brand = "A Good Day to Learn Hard."
+topline = "Algorithm and other tech stuffs"
+footline = "code with <i class='fa fa-heart'></i>"
+
+sidebar = "left"
+highlight = "github"
+
+linkedin = "akagin"
+facebook = "norio.akagi"
+twitter = "_rdtr"
+github = "rdtr"
+# profile = "/images/profile.png"
+googleAnalytics = "UA-50413602-2"
