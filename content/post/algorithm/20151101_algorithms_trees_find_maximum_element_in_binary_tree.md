@@ -2,7 +2,7 @@
 title = "Exploring Algorithm: Finding the maximum element in binary tree"
 date  = "2015-11-01T00:00:00-00:00"
 tags = ["algorithm", "tree problem"]
-slug= "algorithms_trees_find_maximum_element_in_binary_tree"
+slug= "algorithms_tree_find_maximum_element_in_binary_tree"
 +++
 
 #### Problem
@@ -54,8 +54,8 @@ def find_max(root):
         queue = new_queue
     return max_value
 ```
-    
-The time complexicity is `O(N)` while N is a number of nodes of the tree, and the space complexicity is also O(N) (Imagine a case that root has all nodes as children). 
+
+The time complexicity is `O(N)` while N is a number of nodes of the tree, and the space complexicity is also O(N) (Imagine a case that root has all nodes as children).
 
 Or we can use recurrsive function that searches the biggest number among the node itself, its left child, and right child from a given node.
 
@@ -77,7 +77,7 @@ def find_max_value_from_parent_and_children(node):
 def find_max(root):
     return find_max_value_from_parent_and_children(root)
 ```
-    
+
 The time complexicity and the space complexicity are both `O(N)` in this case too.
 
 Java version of the code above is written in below:

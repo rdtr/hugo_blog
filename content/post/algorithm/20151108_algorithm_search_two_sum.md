@@ -2,7 +2,7 @@
 title = "Exploring Algorithm: 2 Sum"
 date  = "2015-11-08T00:00:00-00:00"
 tags = ["algorithm", "search problem"]
-slug= "algorithm_searching_two_sum"
+slug= "algorithm_search_two_sum"
 +++
 
 #### Problem
